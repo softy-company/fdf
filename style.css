@@ -3,13 +3,13 @@
     padding: 0;
    
 }
-html{
+/* html{
     background-image: url(./img/IMG-20230222-WA0008.jpg) ;
     object-fit: cover;
     
     background-repeat: repeat ;
     padding: 100px;
-}
+} */
 
 @import url(https://fonts.googleapis.com/css?family=Gilda+Display);
 
@@ -54,7 +54,7 @@ body:after {
   left: 0;
   right: 35%;
   opacity: 0;
-  color: white;
+  color: rgb(151, 145, 145);
   -webkit-animation: noise-1 .2s linear infinite;
           animation: noise-1 .2s linear infinite;
 }
@@ -72,7 +72,7 @@ body:before {
   left: 0;
   right: 35%;
   opacity: 0;
-  color: white;
+  color: rgb(210, 202, 202);
   -webkit-animation: noise-2 .2s linear infinite;
           animation: noise-2 .2s linear infinite;
 }
@@ -104,7 +104,7 @@ body:before {
   left: 40px;
   right: 100px;
   opacity: 0;
-  color: white;
+  color: rgb(188, 182, 182);
   -webkit-animation: noise-2 .2s linear infinite;
           animation: noise-2 .2s linear infinite;
 }
@@ -122,10 +122,18 @@ body:before {
   left: 40px;
   right: 0;
   opacity: 0;
-  color: white;
+  color: rgb(23, 1, 1);
   -webkit-animation: noise-1 .2s linear infinite;
           animation: noise-1 .2s linear infinite;
 }
+/* .img{
+    width: 10px;
+    height: 10px;
+    object-fit: cover;
+    position: absolute;
+    /* left: 1000px; */
+    
+
 
 @-webkit-keyframes noise-1 {
   0%, 20%, 40%, 60%, 70%, 90% {opacity: 0;}
@@ -225,4 +233,17 @@ span.green {
   display:none; 	
 	}
 
+}
+
+
+
+
+img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+position: absolute;
+left: 20px;
+border-radius: 20px;
+z-index: -1;
 }
